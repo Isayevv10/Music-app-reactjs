@@ -1,0 +1,130 @@
+.player-container {
+  text-align: center;
+  /* border: 1px solid; */
+}
+.player-detail {
+  margin-top: 20px;
+}
+.player-img {
+  width: 220px;
+  height: 220px;
+  margin: auto auto;
+  border-radius: 100%;
+}
+
+img {
+  max-width: max-content;
+  width: 100%;
+  border-radius: 100%;
+}
+.musicName {
+  font-size: 25px;
+  font-weight: bolder;
+  margin-top: 8px !important;
+}
+.musicArtist {
+  font-size: 18px;
+  font-weight: 400;
+}
+.track-range {
+  width: 35%;
+  cursor: pointer;
+  margin: 40px auto 0 auto;
+}
+.trackLength {
+  width: 100%;
+  cursor: pointer;
+  border: none;
+  border-radius: 15px;
+  margin: 0;
+  -webkit-appearance: none;
+}
+.trackLength::-webkit-slider-runnable-track {
+  width: 100%;
+  cursor: pointer;
+  border-radius: 15px;
+}
+
+.trackLength::-webkit-slider-thumb {
+  box-shadow: 1px 1px 1px #828282;
+  border: 1px solid #8a8a8a;
+  height: 15px;
+  width: 15px;
+  border-radius: 50%;
+  background: #dadada;
+  cursor: pointer;
+  -webkit-appearance: none;
+  margin-top: -3px;
+}
+.track-time {
+  display: flex;
+  justify-content: space-between;
+  width: 35%;
+  margin: 0 auto;
+  font-weight: 700;
+}
+
+.audioSpeed {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+.audioSpeed div {
+  height: 35px;
+  width: 35px;
+  border: 1px solid;
+  border-radius: 100%;
+  line-height: 35px;
+  font-size: 13px;
+  cursor: pointer;
+  font-weight: 700;
+}
+
+.btns {
+  display: flex;
+  justify-content: right;
+  width: 70%;
+  margin: 0 auto;
+  margin-top: 18px;
+}
+.restart {
+  flex: 22%;
+}
+.restartBtn {
+  cursor: pointer;
+}
+
+.buttons {
+  flex: 56%;
+  cursor: pointer;
+  width: 200px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.volume {
+  flex: 22%;
+}
+.volumeInput {
+  -webkit-appearance: none;
+  cursor: pointer;
+  margin-left: 5px;
+}
+.volumeInput::-webkit-slider-runnable-track {
+  width: 100%;
+  cursor: pointer;
+  background: rgb(79, 76, 76);
+  border-radius: 15px;
+}
+.volumeInput::-webkit-slider-thumb {
+  box-shadow: 1px 1px 1px rgb(80, 76, 76);
+  border: 1px solid rgb(80, 76, 76);
+  height: 12px;
+  width: 12px;
+  border-radius: 50%;
+  background: rgb(80, 76, 76);
+  cursor: pointer;
+  -webkit-appearance: none;
+  margin-top: -4px;
+  margin-bottom: -2px;
+}

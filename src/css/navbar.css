@@ -1,0 +1,28 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 17px;
+}
+.navbar div:nth-child(1) {
+  font-weight: bold;
+}
+.library {
+  cursor: pointer;
+  font-weight: 700;
+}
+.btn-open {
+  display: flex;
+  background-color: #000;
+  color: #fff;
+  padding: 5px;
+}
+.btn-close {
+  display: flex;
+  background-color: #fff;
+  padding: 5px;
+  color: #000;
+}
+p {
+  margin: 0 !important;
+}

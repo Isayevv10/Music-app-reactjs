@@ -1,0 +1,62 @@
+.container-sidebar {
+  width: 45vh;
+  margin-left: -400px;
+  padding: 15px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  overflow-x: hidden;
+  transition: 0.9s;
+}
+
+.sidenav {
+  width: 45vh;
+  margin-left: 0;
+  height: 100%;
+  padding: 15px;
+  background-color: #fff;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  overflow-x: hidden;
+  transition: 0.9s;
+}
+
+.header {
+  font-weight: 900;
+  margin-bottom: 17px !important;
+}
+
+.trackList {
+  background-color: #fff;
+  display: flex;
+  margin-top: 12px;
+  box-shadow: 2px 2px 3px 3px whitesmoke, 2px 2px 3px 3px whitesmoke;
+}
+.trackList:hover {
+  transform: scale(0.93);
+  cursor: pointer;
+}
+.coverImg {
+  width: 60px;
+  height: 60px;
+  margin-right: 7px;
+}
+img {
+  max-width: max-content;
+  width: 100%;
+}
+p {
+  margin: 8px 0;
+}
+.searchInput {
+  width: 100%;
+  text-indent: 6px;
+  height: 28px;
+  border: 1px solid whitesmoke;
+  box-shadow: 5px 5px 3px 3px white, 5px 5px 3px 3px white;
+  border-radius: 6px;
+  outline: none;
+}

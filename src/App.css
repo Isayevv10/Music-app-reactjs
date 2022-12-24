@@ -1,0 +1,14 @@
+.App {
+  max-width: 992px;
+  margin: 0 auto;
+}
+.openNav {
+  margin-left: 315px;
+  transition: 0.9s;
+  border: none;
+}
+.closeNav {
+  margin-left: 0px;
+  transition: 0.9s;
+  border: none;
+}
